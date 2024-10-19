@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +32,48 @@
     transform: rotate(360deg);
   }
 }
+
+.buttons {
+  margin-left: 15px;
+}
+.buttons button{
+  width: 50px;
+  margin-right: 9px;
+  margin-bottom: 35px;
+  border-style: outset;
+  padding: 7px 7px 7px 7px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.buttons button:focus {
+  border-style: inset;
+}
+#box {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 250px;
+  height: 30px;
+  font-size: 25px;
+  border-style: inset;
+}
+.calc {
+  background-color: #282c34;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-left: 0px;
+  margin-top: 70px;
+  border-style: inset;
+}
+.App {
+  padding-left: 500px;
+  padding-right: 570px;
+}
+/* .calc {
+  background: #000;
+  width: 248px;
+} */
